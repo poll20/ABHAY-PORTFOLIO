@@ -1,0 +1,32 @@
+
+.sub{
+    display: flex;
+    flex-direction: column;
+}
+.inp{
+    width: 385px;
+}
+#phone{
+    width: 385px;
+}
+#textarea{
+    width: 600px;
+}
+@media screen and (max-width:621px){
+    #textarea{
+   width: 385px;
+    }
+    
+}
+@media screen and (max-width:280px){
+    #textarea{
+   width: 280px;
+    }
+    .inp{
+        width: 280;
+    }
+    #phone{
+        width: 280;
+    }
+    
+}
