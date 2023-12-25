@@ -314,14 +314,14 @@ input{
     }
 }
 
-.project-class{
+/* .project-class{
     /* border: 2px solid white; */
     /* height: 45rem; */
     /* margin-top: 40px;
     width: 80rem;
     margin-left: auto;
-    margin-right: auto; */
-}
+    margin-right: auto; }*/
+ 
 .card{
     width: 18rem;
     padding: 0 10px;
