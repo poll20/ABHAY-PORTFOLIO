@@ -335,14 +335,14 @@ input{
     font-size: 5em;
 }
 .project1{
-    border: 2px solid white;
+    /* border: 2px solid white; */
     height: 500px;
     display: flex;
     align-items: center;
     justify-content:space-around;
 }
 .project2{
-    border: 2px solid white;
+    /* border: 2px solid white; */
     height: 500px;
     display: flex;
     flex-direction: row-reverse;
@@ -350,7 +350,7 @@ input{
     justify-content:space-around;
 }
 .project-film{
-    border: 2px solid white;
+    /* border: 2px solid white; */
     width: 500px;
     height: 500px;
     display: flex;
@@ -358,7 +358,7 @@ input{
     justify-content: center;
 }
 .discreption-film{
-    border: 2px solid white;
+    /* border: 2px solid white; */
     display: flex;
     align-items: center;
     width: 500px;
