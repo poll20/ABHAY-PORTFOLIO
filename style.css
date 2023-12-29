@@ -363,3 +363,8 @@ input{
     align-items: center;
     width: 500px;
 }
+.heading2{
+    margin-bottom:16px ;
+    /* border: 2px solid red; */
+    margin-right: 25px;
+}
