@@ -8,3 +8,19 @@
 #typing{
     font-size: 3em;
 }
+section{
+    display: flex;
+    flex-direction: column;
+}
+.project2{
+     
+    display: flex;
+    flex-direction: column;
+}
+.project-film2{
+    margin-top: 200px;
+}
+.discreption-film{
+    width: 380px;
+    height: 200px;
+}
