@@ -31,7 +31,7 @@ box-shadow: 20px 20px 20px rgba(26, 25, 25, 0.749), inset -20px -20px 20px rgba(
 }
 
 .img {
-    background-image: url("pht.jpg");
+    background-image: url("pht1.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -39,7 +39,7 @@ box-shadow: 20px 20px 20px rgba(26, 25, 25, 0.749), inset -20px -20px 20px rgba(
 }
 
 .txt {
-
+    /* border: 2px solid white; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -67,7 +67,7 @@ font-family: 'Satisfy', cursive;
     margin-left: 260px;
     position: relative;
     color: #fcd735;
-   
+   /* border: 2px solid red; */
 }
 
 .dis h1{
@@ -334,8 +334,7 @@ input{
 }
 .card-body{
     height: 15rem;
-    
-}
+    }
 #typing{
     font-size: 5em;
 }
@@ -343,15 +342,16 @@ input{
     /* border: 2px solid white; */
     height: 500px;
     display: flex;
+    /* flex-direction: column; */
     align-items: center;
     justify-content:space-around;
 }
 .project2{
     /* border: 2px solid white; */
     
-    height: 500px;
+    /* s */
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction:row-reversef;
     align-items: center;
     justify-content:space-around;
 }
@@ -367,7 +367,7 @@ input{
     border: 2px solid white;
     display: flex;
     align-items: center;
-    /* width: 500px; */
+    width: 500px;
     box-shadow: 2px 2px 10px rgb(185, 179, 179,0.749),inset 2px 2px 10px rgb(158, 154, 154,0.749); 
    padding: 50px 0;
    transition: all .5s ease-in;
@@ -387,11 +387,51 @@ input{
 .heading2:hover{
     color: red;
 }
- a{
-    color: red;
+
+#wd{
+    font-size: 45px;
 }
-@media only screen and(max-width:521px){
-    .discreption-film{
-        width: 300px;
+/* .heading{
+    border: 2px solid white;
+} */
+
+@media (min-width:1200px) and (max-width:1400px) {
+ #wd{
+    font-size: 30px;
+ }
+ .txt{
+    width: 430px;
+ }
+ .dis{
+    margin-right: 100px;
+ }
+}
+@media(min-width:1000px) and (max-width:1200px) {
+    #wd{
+       font-size: 20px;
     }
-}
+    .txt{
+        width: 330px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+     }
+     .dis{
+        margin-right:100px;
+     }
+   }
+   @media(max-width:1000px) {
+    #wd{
+       font-size: 20px;
+       margin-right: 80px;
+    }
+    .txt{
+        width: 200px;
+        text-align: center;
+     }
+     .dis{
+        margin-right: 200px;
+     }
+   }

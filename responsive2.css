@@ -6,9 +6,9 @@
     height: 10rem;
 }
 #typing{
-    font-size: 3em;
+    font-size: 2em;
 }
-section{
+ section{
     display: flex;
     flex-direction: column;
 }
@@ -17,10 +17,11 @@ section{
     display: flex;
     flex-direction: column;
 }
-.project-film2{
-    margin-top: 200px;
-}
-.discreption-film{
-    width: 380px;
+/*.project-film2{
+    margin-top: 280px;
+} */
+ .discreption-film{
+    width: 300px;
     height: 200px;
-}
+    font-size: 10px;
+} 
