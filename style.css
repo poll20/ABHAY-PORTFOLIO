@@ -48,7 +48,7 @@ box-shadow: 20px 20px 20px rgba(26, 25, 25, 0.749), inset -20px -20px 20px rgba(
         justify-content: center; 
     }
     .dis h1{
-        font-size: 100px;
+        font-size: 10rem;
     }
 }
 .txt {
