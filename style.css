@@ -47,18 +47,8 @@ box-shadow: 20px 20px 20px rgba(26, 25, 25, 0.749), inset -20px -20px 20px rgba(
         display: flex;
         justify-content: center; 
     }
-    .dis::after {
-        content: "";
-        position: relative  ;
-        border: 2px solid black;
-    
-    }
-    
-    .dis::after {
-        animation-name: anime;
-        animation-duration: 4s;
-        animation-iteration-count: infinite;
-        animation-fill-mode: forwards;
+    .dis h1{
+        font-size: 4rem;
     }
 }
 .txt {
